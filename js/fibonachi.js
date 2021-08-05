@@ -10,7 +10,7 @@ for (let i = 1; i <= number; i++) {
     temp = a1 + a2;
     a1 = a2;
     a2 = temp;
-    //console.log(a2); 
+    console.log(a2); 
 }
   return a2;
 };
