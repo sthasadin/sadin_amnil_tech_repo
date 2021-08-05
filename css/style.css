@@ -1,0 +1,28 @@
+* {
+  background-color: #f8edeb;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fibo {
+  margin: 10px;
+  background-color: #99d98c;
+  border-radius: 10px;
+}
+.fibo:hover {
+  margin: 10px;
+  background-color: #76c893;
+  border-radius: 15px;
+}
+.factorial {
+  margin: 10px;
+  background-color: #bde0fe;
+  border-radius: 10px;
+}
+.factorial:hover {
+  margin: 10px;
+  background-color: #a2d2ff;
+  border-radius: 15px;
+}
