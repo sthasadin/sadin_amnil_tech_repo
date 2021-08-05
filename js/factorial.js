@@ -2,7 +2,8 @@ console.log('Factorial');
 // var num = 6;
 
     //var result = num;
-    function factorial(num){
+    function factorial(){
+      num=prompt("enter a number for factorial:");
       var result = num;
     if (num === 0 || num === 1) {
     console.log('1');
@@ -18,4 +19,4 @@ console.log('Factorial');
 }
     
 };
-document.write("fibonachi series: "+factorial(6));
+document.write("fibonachi series: "+factorial());
